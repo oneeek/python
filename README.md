@@ -4,8 +4,8 @@
 $ cd
 $ python -m venv <name>
 
-$ source .venv/bin/activate
+$ .\<name>\Scripts\activate
 $ deactivate
 
-$ rm -rf <name>
+$ pip list --local
 ```
